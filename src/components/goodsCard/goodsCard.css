@@ -1,0 +1,68 @@
+/*商品card  最外边的总容器*/
+
+.goods-card {
+	background: #F2F2F2;
+	width: 100%;
+}
+
+
+/*商品图片的容器*/
+
+.goods-img-box {
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	background: #f7f7f7;
+}
+
+
+/*设置商品的图片的样式*/
+
+.goods-card img {
+	width: 100%;
+}
+
+
+/*商品文本的容器*/
+
+.goods-text-box {
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+}
+
+
+/*商品标题样式  两行显示省略号*/
+
+.goods-title {
+	font-size: 14px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+
+/*商品价格的容器*/
+
+.goods-price {
+	padding: 7px;
+	overflow: auto;
+	white-space: nowrap;
+	text-align: right;
+}
+
+
+/*新价格的样式*/
+
+.new-goods-price {
+	font-size: 14px;
+}
+
+
+/*旧价格的样式*/
+
+.old-goods-price {
+	font-size: 13px;
+	color: #969696;
+}

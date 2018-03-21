@@ -1,0 +1,89 @@
+.release-box .weui-cells {
+	margin-top: 0 !important;
+}
+
+.release-box .weui-textarea {
+	font-size: 14px !important;
+}
+
+.add-box {
+	padding: 8px;
+}
+
+.add {
+	width: 60px;
+	height: 60px;
+	border: 1px dashed #DDDDDD;
+}
+
+.font-gray {
+	color: #DDDDDD;
+}
+
+.font-20 {
+	font-size: 25px;
+}
+
+.upload-img-box {
+	background: #DDDDDD;
+	padding-top: 5px;
+	overflow-x: auto;
+}
+
+.upload-img {
+	text-align: center;
+}
+
+.upload-img img {
+	width: 50px;
+	height: 50px;
+}
+
+.shop-box {
+	background: #fff;
+	overflow-x: auto;
+}
+
+.shop-card {
+	background: #DDDDDD;
+}
+
+.shop-img {
+	padding-top: 5px;
+}
+
+.shop-img img {
+	width: 45px;
+	height: 45px;
+}
+
+.release-box .vux-label {
+	font-size: 14px !important;
+}
+
+.release-box .weui-cell__ft {
+	font-size: 14px !important;
+}
+
+.release-box .el-upload-list__item.is-success img {
+	width: 70px !important;
+	height: 70px !important;
+}
+
+.release-box .el-icon-close-tip {
+	display: none !important;
+}
+
+.release-box .el-upload-list__item-name {
+	display: none !important;
+}
+
+.release-box .el-upload-list.el-upload-list--picture-card {
+	width: 100%;
+	overflow-x: auto !important;
+}
+
+.release-box .el-upload-list__item.is-success {
+	float: left;
+	margin-right: 5px;
+}

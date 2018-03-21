@@ -1,0 +1,28 @@
+.head-img img {
+	width: 60px;
+	height: 60px;
+}
+
+.collect-item {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.collect-item .vux-flexbox {
+	align-items: flex-start;
+}
+
+
+/*.goods-title {
+	height: 30px;
+}
+
+.goods-price {
+	height: 30px;
+}*/
+
+.hint {
+	padding-top: 20px;
+}

@@ -1,0 +1,143 @@
+/*更改body的颜色*/
+
+body {
+	background: #eff3f2;
+}
+
+
+/*全局的字体14px*/
+
+* {
+	font-size: 14px;
+	margin: 0;
+}
+
+
+/*这个是整个表单cell外层的样式去点了上外边距*/
+
+.user .weui-cells {
+	margin-top: 0em !important;
+}
+
+
+/*设置下边两个列表的上外边距*/
+
+.user .margin-top-half {
+	margin-top: 0.5em;
+}
+
+
+/*代付款 五个的样式*/
+
+.user .weui-grid {
+	padding: 10px 6px !important;
+}
+
+
+/*这个主要设置了五宫格的下边的字体大小*/
+
+.user .grid-center {
+	display: block;
+	text-align: center;
+	color: #666;
+	font-size: 0.00000001em;
+	white-space: nowrap;
+	margin-top: 5px;
+}
+
+
+/*设置五宫格的背景颜色*/
+
+.user .weui-grids {
+	background: #fff;
+}
+
+
+/*去掉不必要的边框*/
+
+.user .weui-grids:after {
+	content: none !important;
+}
+
+.user .weui-grid:before {
+	content: none !important;
+}
+
+.user .weui-grid:after {
+	content: none !important;
+}
+
+
+/*去掉cell的上边的边框*/
+
+.user .weui-cells:before {
+	content: none !important;
+}
+
+.user .weui-cells:after {
+	content: none !important;
+}
+
+
+/*去掉用户信息的上下边框*/
+
+.user .weui-panel:before {
+	content: none !important;
+}
+
+.user .weui-panel:after {
+	content: none !important;
+}
+
+
+/*把个人信息的容器的padding减小*/
+
+.user .weui-media-box {
+	padding: 5px;
+}
+
+
+/*设置顶部用户信息的背景颜色*/
+
+.user .weui-panel.weui-panel_access {
+	background: #000;
+}
+
+
+/*改变头像的大小*/
+
+.user .weui-media-box_appmsg .weui-media-box__hd {
+	width: 50px !important;
+	height: 50px !important;
+	line-height: 50px !important;
+}
+
+
+/*把头像变成圆形的*/
+
+.user .weui-media-box_appmsg .weui-media-box__thumb {
+	border-radius: 50%;
+}
+
+
+/*改变用户名字的颜色*/
+
+.user .weui-media-box__title {
+	color: #fff !important;
+}
+
+.user .weui-grid__icon img {
+	width: 80%;
+	height: 80%;
+}
+
+.user .user-head {
+	background: #000;
+	padding-top: 5px;
+}
+
+.user .user-head-img img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}

@@ -1,0 +1,82 @@
+/*改变顶部导航栏的样式*/
+
+.cash {
+	position: relative;
+}
+
+
+/*顶部卡片*/
+
+.top-card {
+	background: #000;
+}
+
+
+/*顶部提示*/
+
+.cash-point {
+	text-align: center;
+	padding: 5px 0;
+}
+
+
+/*钱*/
+
+.cash-money {
+	text-align: center;
+	padding: 5px 0;
+}
+
+.cash-remark {
+	text-align: center;
+	padding: 5px 0;
+}
+
+.cash .weui-cells.vux-no-group-title {
+	margin: 0px !important;
+}
+
+.bottom-cell {
+	padding: 5px;
+}
+
+.cash .weui-cells:before {
+	content: none !important;
+}
+
+.cash .weui-cells:before {
+	content: none !important;
+}
+
+.cash .profit .weui-cells:after {
+	content: " ";
+	position: absolute;
+	left: 10px !important;
+	bottom: 0;
+	right: 0;
+	height: 1px;
+	border-bottom: 1px solid #D9D9D9;
+	color: #D9D9D9;
+	-webkit-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+}
+
+.no-border .weui-cells:after {
+	content: none !important;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.cash-btn {
+	padding: 10px 0;
+	text-align: center;
+	background: #000;
+	width: 100%;
+	color: #fff;
+	position: fixed;
+	bottom: 0px;
+}

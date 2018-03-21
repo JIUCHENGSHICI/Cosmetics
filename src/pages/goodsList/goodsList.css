@@ -1,0 +1,17 @@
+.groom-list {
+	background: #fff;
+	margin-top: 10px;
+}
+
+.groom-card {
+	padding: 5px;
+}
+
+.groom-card .goods-card {
+	border-radius: 5px;
+}
+
+.groom-card .goods-img-box {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}

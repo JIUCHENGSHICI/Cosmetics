@@ -1,0 +1,9 @@
+.tel-box {
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 5px;
+}
+
+.tel a {
+	color: #000000;
+}

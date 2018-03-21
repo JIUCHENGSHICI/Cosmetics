@@ -1,0 +1,95 @@
+.help .weui-grid {
+	padding: 10px 6px !important;
+}
+
+
+/*这个主要设置了五宫格的下边的字体大小*/
+
+.help .grid-center {
+	display: block;
+	text-align: center;
+	color: #666;
+	font-size: 0.00000001em;
+	white-space: nowrap;
+	margin-top: 5px;
+}
+
+
+/*设置五宫格的背景颜色*/
+
+.help .weui-grids {
+	background: #fff;
+}
+
+
+/*去掉不必要的边框*/
+
+
+/*.help .weui-grids:after {
+	content: none !important;
+}*/
+
+
+/*.help .weui-grids:before {
+	content: none !important;
+}*/
+
+
+/*.help .weui-grid:before {
+	content: none !important;
+}*/
+
+.point-card {
+	margin-top: 10px;
+}
+
+.help .weui-grid:after {
+	content: none !important;
+}
+
+.left {
+	/*background: red;*/
+	text-align: center;
+}
+
+.left img {
+	width: 40px;
+	height: 40px;
+}
+
+.right {
+	/*background: blue;*/
+	border-left: 1px solid #D9D9D9;
+}
+
+.right-top {
+	padding: 6px 0;
+	border-bottom: 1px solid #D9D9D9;
+	padding-left: 5px;
+}
+
+.right-bottom {
+	padding: 6px 0;
+	padding-left: 5px;
+}
+
+.bottom-img img {
+	width: 80%;
+}
+
+.bottom-box {
+	padding: 5px;
+}
+
+
+/*改图片的大小*/
+
+.help .left img {
+	width: 20px;
+	height: 20px;
+}
+
+.help .weui-grid__icon img {
+	width: 80%;
+	height: 80%;
+}

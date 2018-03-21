@@ -1,0 +1,8 @@
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+.feedback button.weui-btn,
+input.weui-btn {
+	width: 80%;
+}

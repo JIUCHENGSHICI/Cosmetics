@@ -1,0 +1,327 @@
+.weui-tab {
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 46px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: auto;
+}
+
+.goods-basic-info {
+    background-color: #ffffff;
+    padding: 10px;
+    .goods-title {}
+    .goods-money {
+        color: #f00;
+    }
+}
+
+.heart {
+    fill: #fff;
+}
+
+.panel {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.goods-select {
+    background-color: #ffffff;
+    height: 80vh;
+    padding: 10px;
+    .goods-select-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        fill: #000;
+    }
+    .title {
+        font-size: 14px;
+    }
+    .goods-basic-info {
+        position: absolute;
+        top: -30px;
+        right: 10px;
+        left: 10px;
+        display: block;
+        height: 80px;
+        background-color: transparent;
+        border-bottom: solid 1px #ddd;
+        .goods-info {
+            vertical-align: top;
+            display: inline-block;
+            font-size: 14px;
+            padding-top: 30px;
+            .goods-money {}
+        }
+        .goods-head-img {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            border: solid 1px #fff;
+        }
+    }
+    .select-view {
+        position: absolute;
+        top: 70px;
+        bottom: 80px;
+        right: 10px;
+        left: 10px;
+        overflow: auto;
+        .spec-select {
+            font-size: 0;
+            border-bottom: solid 1px #ddd;
+            padding-bottom: 20px;
+            .spec-select-item {
+                /*未选中的*/
+                border: solid #000 1px;
+                padding: 3px 15px;
+                font-size: 14px;
+                margin: 5px;
+            }
+            .spec-select-item-selected {
+                /*选中的*/
+                background-color: #000000;
+                color: #ffffff;
+            }
+            .spec-select-item-disabled {
+                /*禁用的*/
+            }
+        }
+        .num-select {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+    }
+    .add-goods-btn-box {
+        background-color: #fff;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 10px;
+        .add-goods-btn {
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #000000;
+            text-align: center;
+            padding: 10px 0;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    }
+}
+
+.goods-content {
+    width: 100%;
+    overflow: hidden;
+    img {
+        max-width: 100% !important;
+    }
+    * img {
+        max-width: 100% !important;
+    }
+}
+
+.fix-btn-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 20px;
+    .vux-flexbox-item {
+        text-align: center;
+        line-height: 50px;
+        height: 50px;
+        background-color: #ffffff;
+    }
+    .shop-bag-box {
+        border-right: solid 1px #ddd;
+        .shop-bag-icon {}
+        .shop-bag-num {
+            position: relative;
+            top: -10px;
+            left: -8px;
+            background-color: #000000;
+        }
+        .shop-bag-link {
+            width: 100%;
+            display: block;
+            color: #000;
+        }
+    }
+    .add-goods-btn {
+        background-color: #000000;
+        color: #fff;
+        font-size: 18px;
+    }
+}
+
+.vux-number-selector svg {
+    fill: #000;
+}
+
+.vux-popup-dialog {
+    overflow-y: visible;
+}
+
+.member {
+    padding: 5px;
+    background: #fff;
+    .member-label {
+        padding: 1px;
+        border: 1px solid #f00;
+        color: #f00;
+    }
+}
+
+.logo {
+    padding-bottom: 10px;
+}
+
+.shop-logo {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.shop-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+//动态的样式开始
+
+/*每条信息的面板*/
+
+.goods-info .panel {
+    background: #fff;
+}
+
+
+/*头像下边的内容区域*/
+
+.goods-info .content {
+    padding: 5px;
+}
+
+
+/*控制内容的  文字内容的在六行显示点*/
+
+.goods-info .content-words {
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+
+/*图片样式*/
+
+.goods-info .picture-box {
+    padding: 5px;
+}
+
+.goods-info .picture-box img {
+    width: 100%;
+    height: 93.33px;
+}
+
+
+/*最下边的三个*/
+
+.goods-info .handel {
+    text-align: center;
+}
+
+.content-handel {
+    position: relative;
+}
+
+.goods-info .cube {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    margin: auto;
+    width: 1px;
+    background-color: #aaaaaa;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.goods-info .recommend-top {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.goods-info .user-head img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.font-red {
+    color: #f00;
+}
+
+
+/*转发开始*/
+
+.goods-info .comment-item {
+    padding: 7px 0;
+}
+
+.goods-info .comment-item i {
+    font-size: 22px;
+}
+
+.goods-info .cancel {
+    border-top: 1px solid #DDDDDD;
+}
+
+
+/*转发结束*/
+
+.goods-info .margin-right-3 {
+    margin-right: 3px;
+}
+
+
+/*商品开始*/
+
+.shop-box {
+    padding: 0 5px;
+    overflow-x: auto;
+    width: auto;
+    height: 52px;
+}
+
+.shop-item {
+    background: #DDDDDD;
+    display: inline-block;
+}
+
+.goods-info .shop-head {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.goods-info .shop-head img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/*商品结束*/
+
+
+/*最外层的div*/

@@ -1,0 +1,37 @@
+.bload {
+	font-weight: bold;
+}
+
+
+/*订单样式*/
+
+body {
+	/*line-height: 1;*/
+}
+
+.order-head {
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.order-item {
+	padding: 5px;
+	/*background: greenyellow;*/
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.head-img img {
+	width: 50px;
+	height: 50px;
+}
+
+.order-status {
+	padding: 5px;
+}
+
+.order-time {
+	padding: 5px;
+}
+
+.order-title {
+	padding-left: 5px;
+}

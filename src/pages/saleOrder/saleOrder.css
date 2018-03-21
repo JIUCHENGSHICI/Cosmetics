@@ -1,0 +1,143 @@
+/*search*/
+
+.sale-order .vux-search-box.vux-search-fixed {
+	top: 46px !important;
+}
+
+.sale-order .groom-list {
+	margin-top: 44px !important;
+}
+
+.sale-order .search-comp {
+	/*position: fixed !important;*/
+}
+
+.sale-order .vux-search-box.search-comp.vux-search-fixed {
+	/*position: absolute !important;
+	top: 0px !important;*/
+	position: static !important;
+}
+
+.sale-order .weui-search-bar__box .weui-search-bar__input {
+	color: #4A4A4A;
+}
+
+.sale-order .weui-search-bar {
+	/*background: #000;*/
+	background: #fff;
+}
+
+.sale-order .weui-search-bar__cancel-btn {
+	/*color: #fff;*/
+	color: #000;
+	font-size: 14px;
+}
+
+.sale-order .weui-search-bar:before {
+	content: none !important;
+}
+
+.sale-order .weui-search-bar__box {
+	background: #D9D9D9;
+	/*border-radius: 50px;*/
+}
+
+.sale-order .weui-search-bar__form:after {
+	content: none !important;
+}
+
+.sale-order .weui-search-bar__form {
+	background-color: #fff;
+}
+
+.switch-box {
+	border-top: 1px solid #F4F4F4;
+	border-bottom: 1px solid #F4F4F4;
+	padding: 8px 0;
+	position: relative;
+	margin-top: 5px;
+	background: #fff;
+}
+
+.switch {
+	text-align: center;
+	color: #DDDDDD;
+}
+
+.cube1 {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 25%;
+	height: 50%;
+	margin: auto;
+	width: 1px;
+	background-color: #aaaaaa;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.cube2 {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 50%;
+	height: 50%;
+	margin: auto;
+	width: 1px;
+	background-color: #aaaaaa;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.cube3 {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 75%;
+	height: 50%;
+	margin: auto;
+	width: 1px;
+	background-color: #aaaaaa;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.order-box {
+	background: #fff;
+}
+
+.no-settled {
+	background: #fff;
+}
+
+.order-panel {
+	padding: 5px;
+	border-bottom: 1px solid #D9D9D9;
+}
+
+.sale-order .weui-media-box__hd img {
+	border-radius: 50%;
+}
+
+.sale-order .weui-media-box.weui-media-box_appmsg {
+	padding: 5px !important;
+	padding-left: 0px !important;
+}
+
+.sale-order .weui-panel:before {
+	content: none !important;
+}
+
+.sale-order .weui-panel:after {
+	content: none !important;
+}
+
+.sale-order .weui-media-box__title {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.sale-order .weui-media-box__desc {
+	font-size: 12px;
+}

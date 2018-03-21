@@ -1,0 +1,51 @@
+/*更改body的颜色*/
+
+body {
+	background: #eff3f2;
+}
+
+
+/*全局的字体14px*/
+
+* {
+	font-size: 14px;
+	margin: 0;
+}
+
+.weui-grid {
+	padding: 10px 6px !important;
+}
+
+
+/*这个主要设置了五宫格的下边的字体大小*/
+
+.grid-center {
+	display: block;
+	text-align: center;
+	color: #666;
+	font-size: 0.00000001em;
+	white-space: nowrap;
+	margin-top: 5px;
+}
+
+
+/*设置五宫格的背景颜色*/
+
+.weui-grids {
+	background: #fff;
+}
+
+
+/*去掉不必要的边框*/
+
+.weui-grids:after {
+	content: none !important;
+}
+
+.weui-grid:before {
+	content: none !important;
+}
+
+.weui-grid:after {
+	content: none !important;
+}

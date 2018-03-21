@@ -1,0 +1,19 @@
+/*改变轮播图提示的样式*/
+
+.vux-slider>.vux-indicator>a>.vux-icon-dot,
+.vux-slider .vux-indicator-right>a>.vux-icon-dot {
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px !important;
+	height: 2px !important;
+	border-radius: 0px !important;
+	background-color: #fff;
+}
+
+
+/*改变轮播图提示的选中的样式*/
+
+.vux-slider>.vux-indicator>a>.vux-icon-dot.active,
+.vux-slider .vux-indicator-right>a>.vux-icon-dot.active {
+	background-color: #000 !important;
+}

@@ -1,0 +1,15 @@
+.offline-item {
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.offline-item .head {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.offline-item .head img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}

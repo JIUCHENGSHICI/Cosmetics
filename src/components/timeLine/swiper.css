@@ -1,0 +1,75 @@
+.drag {
+	position: fixed;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+
+/*滑动的导航栏的开始*/
+
+#timeNav {
+	width: 100%;
+	overflow: hidden;
+	background: #000;
+	/*top: 40px;*/
+}
+
+#timeNav .swiper-slide {
+	padding: 2px 5px;
+	letter-spacing: 2px;
+	width: 5rem;
+	text-align: center;
+	font-size: 10px;
+	line-height: 25px;
+}
+
+#timeNav .swiper-slide span {
+	transition: all .3s ease;
+	display: block;
+}
+
+#timeNav .active {
+	transform: scale(1.1);
+	color: #FF2D2D;
+	opacity: 1;
+	font-size: 12px;
+	color: #fff;
+}
+
+.gallery-thumbs .swiper-slide {
+	text-align: center;
+	padding: 5px 0px;
+	color: #777777;
+}
+
+.gallery-top {
+	position: relative;
+	height: 100%;
+}
+
+.gallery-top .swiper-slide {
+	overflow-y: auto;
+}
+
+
+/*滑动的导航栏的结束*/
+
+
+/*改动滑块的上边距和左边距*/
+
+.swiper-container.gallery-thumbs {
+	padding: 5px;
+}
+
+
+/*更改bootstrap的padding*/
+
+.container-fluid {
+	padding: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*顶部的中间字体的样式*/

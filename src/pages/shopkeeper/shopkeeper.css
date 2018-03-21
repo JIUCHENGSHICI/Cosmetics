@@ -1,0 +1,308 @@
+body {
+	/*line-height: 0 !important;*/
+}
+
+.shopkeeper .weui-cells {
+	margin-top: 0px !important;
+}
+
+.shopkeeper .weui-grid__icon img {
+	width: 80% !important;
+	height: 80% !important;
+}
+
+
+/*顶部的用户信息的样式*/
+
+.shopkeeper-top {
+	background: #fff;
+	padding: 10px;
+}
+
+
+/*顶部最左边的头像的样式*/
+
+.shopkeeper-head {
+	height: 50px;
+	line-height: 50px;
+}
+
+.shopkeeper-head img {
+	max-width: 100%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+
+/*店主的名字*/
+
+.shopkeeper-name {
+	padding-left: 5px;
+	height: 25px;
+}
+
+.shopkeeper-id {
+	padding-left: 5px;
+	height: 25px;
+}
+
+
+/*店主后边的二维码*/
+
+.shopkeeper-code {
+	height: 50px;
+	line-height: 45px;
+	text-align: right;
+}
+
+.shopkeeper-code img {
+	max-width: 80%;
+	height: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/*店主精选和邀请店主的样式*/
+
+.shopkeeper-card {
+	background: #fff;
+}
+
+
+/*精选*/
+
+.left-card {
+	text-align: center;
+	padding: 10px 0;
+}
+
+
+/*邀请*/
+
+.right-card {
+	text-align: center;
+	padding: 10px 0;
+}
+
+
+/*去掉cell的边框*/
+
+.weui-cells:before {
+	content: none !important;
+}
+
+.weui-cells:after {
+	content: none !important;
+}
+
+
+/*经营数据下边的样式*/
+
+.data {
+	background: #fff;
+	padding: 5px 0;
+	/*position: relative;*/
+}
+
+.data-left {
+	text-align: center;
+}
+
+.data-center {
+	text-align: center;
+}
+
+.data-right {
+	text-align: center;
+}
+
+
+/*三张图片*/
+
+.three-img {
+	padding: 5px;
+	padding-left: 1px;
+	white-space: nowrap;
+	overflow-x: auto;
+}
+
+.left-img {
+	height: 50px;
+	background-image: url(../../assets/ImgThree/left.png);
+	background-size: cover;
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.center-img {
+	height: 50px;
+	background-image: url(../../assets/ImgThree/left.png);
+	background-size: cover;
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.right-img {
+	height: 50px;
+	background-image: url(../../assets/ImgThree/left.png);
+	background-size: cover;
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	color: #fff;
+}
+
+
+/*最下边的*/
+
+.shopkeeper .weui-grid {
+	padding: 10px 6px !important;
+}
+
+
+/*这个主要设置了五宫格的下边的字体大小*/
+
+.shopkeeper .grid-center {
+	display: block;
+	text-align: center;
+	color: #666;
+	font-size: 0.00000001em;
+	white-space: nowrap;
+	margin-top: 5px;
+}
+
+
+/*设置五宫格的背景颜色*/
+
+.shopkeeper .weui-grids {
+	background: #fff;
+}
+
+
+/*去掉不必要的边框*/
+
+.shopkeeper .weui-grids:after {
+	content: none !important;
+}
+
+.shopkeeper .weui-grids:before {
+	content: none !important;
+}
+
+.shopkeeper .weui-grid:before {
+	content: none !important;
+}
+
+.shopkeeper .weui-grid:after {
+	content: none !important;
+}
+
+.shopkeeper .vux-label {
+	font-size: 14px;
+}
+
+.shopkeeper .weui-cell__ft {
+	font-size: 14px;
+}
+
+
+/*新增样式滑动卡片*/
+
+.card-box {
+	/*background: #007DDB;*/
+	white-space: nowrap;
+	overflow-x: auto;
+	padding: 5px;
+}
+
+.card-item {
+	background: #F74C31;
+	border-radius: 5px;
+	padding-top: 10px;
+	margin-right: 5px;
+}
+
+.card-hint {
+	border: 1px solid #fff;
+	display: inline-block;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 30px;
+}
+
+.card-bottom {
+	position: relative;
+	padding-top: 5px;
+}
+
+.card-bottom .cube1 {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 33.33%;
+	height: 50%;
+	margin: auto;
+	width: 1px;
+	background-color: #fff;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.card-bottom .cube2 {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 66.66%;
+	height: 50%;
+	margin: auto;
+	width: 1px;
+	background-color: #fff;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.cube {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 50%;
+	height: 50%;
+	margin: auto;
+	width: 1px;
+	background-color: #DDDDDD;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.profit {
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	padding: 12px 0;
+}
+
+.hint-head img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.padding-left-5 {
+	padding-left: 5px;
+}
+
+.division {
+	width: 100%;
+	height: 5px;
+	background: #DDDDDD;
+}

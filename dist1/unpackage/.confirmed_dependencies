@@ -1,0 +1,8 @@
+{
+	"index.html": {
+		"resources": [
+			"web/index.html",
+			"/web/index.html"
+		]
+	}
+}

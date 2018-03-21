@@ -1,0 +1,55 @@
+.about-box {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../../assets/user.png);
+	background-size: cover;
+	position: relative;
+}
+
+.about-panel {
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+	opacity: 0.5;
+}
+
+.about-top {
+	width: 100%;
+	position: fixed;
+	top: 50px;
+}
+
+.about-img {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.about-img img {
+	width: 80px;
+	height: 80px;
+}
+
+.about-english-name {
+	text-align: center;
+}
+
+.about-china-name {
+	text-align: center;
+	font-weight: bold;
+}
+
+.about-bottom {
+	position: fixed;
+	bottom: 53px;
+	width: 100%;
+}
+
+.padding-bottom-10 {
+	padding-bottom: 10px;
+}
+
+.about-box .weui-tab__panel {
+	padding-bottom: 0px !important;
+}

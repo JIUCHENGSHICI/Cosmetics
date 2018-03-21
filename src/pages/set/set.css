@@ -1,0 +1,27 @@
+.set * {
+    font-size: 14px;
+}
+
+
+/*设置导航栏成黑色*/
+
+.set .vux-header {}
+
+
+/*设置顶外边距*/
+
+.set .weui-cells.vux-no-group-title {
+    margin-top: 10px !important;
+}
+
+
+/*退出当前账号的样式*/
+
+.drop-out {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: #fff;
+    margin-top: 15px;
+    color: #f00;
+}

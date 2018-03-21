@@ -1,0 +1,47 @@
+/*更改原有样式*/
+
+.search .vux-search-box.vux-search-fixed {
+	top: 0px !important;
+}
+
+.search .groom-list {
+	margin-top: 44px !important;
+}
+
+.search .search-comp {
+	position: fixed !important;
+}
+
+.search .weui-search-bar__box .weui-search-bar__input {
+	color: #DDDDDD;
+}
+
+.search .weui-search-bar {
+	background: #000;
+}
+
+.search .weui-search-bar__cancel-btn {
+	color: #fff;
+}
+
+.search .weui-search-bar:before {
+	content: none !important;
+}
+
+.groom-list {
+	background: #fff;
+	margin-top: 10px;
+}
+
+.groom-card {
+	padding: 5px;
+}
+
+.groom-card .goods-card {
+	border-radius: 5px;
+}
+
+.groom-card .goods-img-box {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}

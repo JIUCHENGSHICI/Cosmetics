@@ -1,0 +1,23 @@
+.coupon-box {
+	padding: 5px;
+}
+.coupon-item{
+	margin-bottom: 5px;
+}
+.coupon-item {
+	background: #DDDDDD;
+}
+
+.font-25 {
+	font-size: 25px;
+}
+
+.coupon-info ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.coupon-to-shop {
+	border: 1px solid #f00;
+}

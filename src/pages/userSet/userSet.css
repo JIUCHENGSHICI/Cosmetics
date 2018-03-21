@@ -1,0 +1,121 @@
+/*全部字体14px*/
+
+* {
+	font-size: 14px;
+}
+
+
+/*去掉li的顶外边距*/
+
+.user-set .weui-cells {
+	margin-top: 0 !important;
+}
+
+
+/*用户头像的设置*/
+
+.user-set img {
+	width: 45px;
+	height: 45px;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+
+/*全部的padding加大*/
+
+.user-set .weui-cell {
+	padding: 13px 15px !important;
+}
+
+
+/*第一个  头像的padding减小*/
+
+.user-set .weui-cell.user-set-head {
+	padding: 7.5px 15px !important;
+}
+
+
+/*改变图片上传的样式*/
+
+.user-set .weui-uploader__input-box[data-v-4acb4ad2] {
+	float: right !important;
+}
+
+.user-set .weui-uploader__input[data-v-4acb4ad2] {
+	right: 0px !important;
+}
+
+.user-set .weui-uploader__bd.small .weui-uploader__input-box[data-v-4acb4ad2] {
+	width: 25px;
+	height: 25px;
+}
+
+
+/*竖着的线*/
+
+.user-set .weui-uploader__input-box[data-v-4acb4ad2]:before {
+	height: 20px;
+}
+
+.user-set .weui-uploader__input-box[data-v-4acb4ad2]:after {
+	width: 20px;
+}
+
+.user-set .weui-uploader__bd[data-v-4acb4ad2] {
+	margin-right: 0 !important;
+}
+
+.user-set .weui-cell.up-img {
+	padding: 9px 0 !important;
+}
+
+.user-set .user-set-title {
+	padding-left: 15px;
+}
+
+.user-set .user-set-icon {
+	padding-right: 15px;
+	color: #C8C8CD;
+}
+
+.user-set .fa-angle-right {
+	font-size: 20px;
+}
+
+.avatar-uploader .el-upload {
+	border: 1px dashed #DDDDDD;
+	border-radius: 6px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	float: right;
+}
+
+.avatar-uploader .el-upload:hover {
+	border-color: #fff;
+	line-height: 45px;
+}
+
+.avatar-uploader-icon {
+	font-size: 28px;
+	color: #8c939d;
+	width: 178px;
+	height: 178px;
+	line-height: 178px;
+	text-align: center;
+}
+
+.avatar {
+	width: 178px;
+	height: 178px;
+	display: block;
+}
+
+.user-set .el-upload__input {
+	display: none;
+}

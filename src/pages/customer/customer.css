@@ -1,0 +1,59 @@
+/*search*/
+
+.customer .vux-search-box.vux-search-fixed {
+	top: 46px !important;
+}
+
+.customer .groom-list {
+	margin-top: 44px !important;
+}
+
+.customer .search-comp {
+	/*position: fixed !important;*/
+}
+
+.customer .vux-search-box.search-comp.vux-search-fixed {
+	/*position: absolute !important;
+	top: 0px !important;*/
+	position: static !important;
+}
+
+.customer .weui-search-bar__box .weui-search-bar__input {
+	color: #4A4A4A;
+}
+
+.customer .weui-search-bar {
+	/*background: #000;*/
+	background: #fff;
+}
+
+.customer .weui-search-bar__cancel-btn {
+	/*color: #fff;*/
+	color: #000;
+	font-size: 14px;
+}
+
+.customer .weui-search-bar:before {
+	content: none !important;
+}
+
+.customer .weui-search-bar__box {
+	background: #D9D9D9;
+	/*border-radius: 50px;*/
+}
+
+.customer .weui-search-bar__form:after {
+	content: none !important;
+}
+
+.customer .weui-search-bar__form {
+	background-color: #fff;
+}
+
+.customer .weui-cells {
+	margin: 0 !important;
+}
+
+.customer .weui-media-box.weui-media-box_appmsg {
+	padding: 5px !important;
+}

@@ -1,0 +1,63 @@
+/*改变swiper里边的没有宽度*/
+
+.scroller .vux-slider>.vux-swiper>.vux-swiper-item {
+	width: 0% !important;
+}
+
+
+/*去掉遮罩*/
+
+.scroller .vux-slider>.vux-swiper>.vux-swiper-item>a>.vux-swiper-desc {
+	display: none;
+}
+
+
+/*高度用内容撑起来*/
+
+.scroller .vux-swiper {
+	height: auto !important;
+}
+
+.scroller .panel {
+	background: #f2f2f2;
+	margin-left: 8%;
+	border-radius: 50%;
+}
+
+.scroller .goods-card {
+	border-radius: 5px;
+}
+
+.scroller .goods-img-box {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+/*时间轴*/
+
+.time {
+	font-size: 20px;
+}
+
+.axis-hint {
+	border-bottom: 2px solid #f00;
+}
+
+.axis-img img {
+	width: 100%;
+	height: 170px;
+	border-radius: 5px;
+}
+
+.scroller-bottom {
+	padding: 5px;
+}
+
+.axis-img {
+	width: 100%;
+	height: 170px;
+	border-radius: 5px;
+	background-image: url(../../assets/ImgThree/right-bottom.jpg);
+	background-size: cover;
+}

@@ -1,0 +1,54 @@
+.order-info {
+	position: relative;
+	height: 110vh;
+}
+
+.order-hint {
+	padding: 5px;
+}
+
+.head {
+	background: #4A4A4A;
+	padding: 5px;
+}
+
+
+/*收货信息的title*/
+
+.receipt-title {
+	border-bottom: 1px solid #DDDDDD;
+}
+
+
+/*收货信息的详情*/
+
+.receipt-info {
+	padding: 5px;
+}
+
+
+/*商品信息的标题*/
+
+.goods-info-title {
+	padding: 5px;
+	background: #DDDDDD;
+}
+
+.head-img img {
+	width: 50px;
+	height: 50px;
+}
+
+.border-bottom-1 {
+	border-bottom: 1px solid #DDDDDD;
+}
+
+
+/*联系客服*/
+
+.contact {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	background: #DDDDDD;
+}

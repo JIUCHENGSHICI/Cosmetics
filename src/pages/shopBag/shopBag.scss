@@ -1,0 +1,98 @@
+.weui-tab {
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 46px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: auto;
+}
+
+.bag-list {
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    .bag-item {
+        border-bottom: solid 1px #ddd;
+        padding: 5px 5px;
+        height: 76px;
+        .isActive {
+            height: 76px;
+            line-height: 76px;
+        }
+        .bag-goods-head-img {
+            width: 60px;
+            height: 60px;
+        }
+        .bag-goods-title {
+            vertical-align: top;
+        }
+    }
+}
+
+.fix-btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    border-top: solid 1px #ddd;
+    font-size: 14px;
+    height: 53px;
+    line-height: 50px;
+    padding: 0 5px;
+    .total {
+        color: #f00;
+        padding-right: 10px;
+    }
+    .fix-btn-item {
+        line-height: 1;
+        display: inline-block;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        padding: 13px 25px;
+        border-radius: 3px;
+        font-size: 15px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}
+
+.shop-bag-hint {
+    background: #DDDDDD;
+}
+
+.recommend-head {
+    padding-top: 6px;
+    padding-left: 6px;
+}
+
+.recommend-head img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* 推荐列表的样式 开始*/
+
+.shop-bag .groom-list {
+    background: #fff;
+}
+
+.shop-bag .groom-card {
+    padding: 5px;
+}
+
+.shop-bag .groom-card .goods-card {
+    border-radius: 5px;
+}
+
+.shop-bag .groom-card .goods-img-box {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+/*商品列表的样式 结束*/

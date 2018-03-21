@@ -1,0 +1,135 @@
+/*搜索的样式   开始*/
+
+.class .weui-search-bar__label {
+	background: #333333 !important;
+}
+
+.class .weui-search-bar {
+	/*padding: 0 !important;*/
+	background: #000;
+}
+
+.class .weui-search-bar:before {
+	content: none !important;
+}
+
+.class .weui-search-bar:after {
+	content: none !important;
+}
+
+.class .weui-search-bar__box {
+	background: #000;
+}
+
+
+/*去掉边框*/
+
+.class .weui-search-bar__form:after {
+	content: none !important;
+}
+
+.class .vux-header .vux-header-title {
+	line-height: 25px !important;
+}
+
+.class .weui-search-bar {
+	/*padding: 0 !important;*/
+}
+
+.class .vux-header-title-area,
+.vux-header .vux-header-title {
+	margin: 0 36px !important;
+}
+
+.class .weui-search-bar {
+	padding: 6px 0px !important;
+}
+
+
+/*搜索组件样式  结束*/
+
+.class .vux-header {
+	background: #000;
+}
+
+
+/*导航栏下边的样式左右的选项卡 开始*/
+
+.class .bc-white {
+	background: #fff;
+	color: #000;
+}
+
+
+/*提示*/
+
+.class .point {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #fff;
+	margin-bottom: 10px;
+}
+
+.class .point span {
+	border-bottom: 2px solid #68b5aa;
+	padding-bottom: 5px !important;
+}
+
+
+/*商品列表开始*/
+
+.class .groom-list {
+	background: #fff;
+	margin-top: 10px;
+}
+
+.class .groom-card {
+	padding: 5px;
+}
+
+.class .groom-card .goods-card {
+	border-radius: 5px;
+}
+
+.class .groom-card .goods-img-box {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+/*商品列表结束*/
+
+.class .class-left {
+	/*height: 90vh;*/
+	background: #DDDDDD;
+}
+
+.class .left-item {
+	padding: 5px 0;
+}
+
+.class .vux-flexbox {
+	align-items: flex-start !important;
+}
+
+.class .left-height {
+	height: 90vh;
+	background: #DDDDDD;
+	overflow-y: auto;
+}
+
+.class .right-height {
+	height: 90vh;
+	overflow-y: auto;
+}
+
+.class .shop-head img {
+	width: 30px;
+	height: 30px;
+}
+
+.class .shop {
+	margin-bottom: 8px;
+}

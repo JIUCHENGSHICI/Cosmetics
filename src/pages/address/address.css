@@ -1,0 +1,48 @@
+.user-info {
+	padding: 5px 8px;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #4A4A4A;
+	font-size: 14px;
+}
+
+.user-name {
+	color: #000;
+	font-size: 15px;
+}
+
+.fr {
+	float: right;
+}
+
+.address .address-panel:after {
+	content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 1px;
+	border-bottom: 1px solid #E5E5E5;
+	color: #E5E5E5;
+	-webkit-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+}
+
+
+/*新增收货地址*/
+
+.address .add-address {
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	position: fixed;
+	bottom: 0;
+	color: #f00;
+	background: #DDDDDD;
+}
+
+.default {
+	color: #f00;
+}

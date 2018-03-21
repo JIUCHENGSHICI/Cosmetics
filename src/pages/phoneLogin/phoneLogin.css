@@ -1,0 +1,22 @@
+.phone-login .weui-cells:before {
+	content: none;
+}
+
+.phone-login-box {
+	padding: 0 15px;
+}
+
+.obtain.weui-btn {
+	margin-top: 16px;
+	font-size: 14px !important;
+	padding: 5px 0;
+}
+
+.button {
+	padding-top: 100px;
+}
+
+.login-btn.weui-btn {
+	background: #000;
+	color: #fff;
+}

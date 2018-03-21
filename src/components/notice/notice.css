@@ -1,0 +1,57 @@
+.weui-cell.notice-panel {
+	padding: 10px 0px !important;
+}
+
+
+/*去掉顶部的外边距*/
+
+.notice-box .weui-cells {
+	margin-top: 0 !important;
+}
+
+
+/*去掉顶部的边框*/
+
+.notice-box .weui-cells:before {
+	content: none !important;
+}
+
+
+/*左侧*/
+
+.notice-panel .vux-cell-bd.vux-cell-primary {
+	padding-right: 0px !important;
+	text-align: center;
+	font-weight: 500;
+	font-size: 15px;
+	border-right: 2px solid #000;
+	width: 30% !important;
+}
+
+
+/*右侧*/
+
+.notice-panel .weui-cell__ft {
+	padding-left: 3% !important;
+	width: 70% !important;
+	overflow: hidden;
+	height: 19px !important;
+	text-align: left !important;
+	padding-right: 3% !important;
+}
+
+
+/*.weui-cell {
+		height: 19px !important;
+	}*/
+
+
+/*改字体大小*/
+
+.notice-box .weui-cells {
+	font-size: 14px !important;
+}
+
+.align-middle {
+	text-align: center;
+}

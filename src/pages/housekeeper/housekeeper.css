@@ -1,0 +1,35 @@
+.housekeeper-box {
+	padding: 5px;
+}
+
+.housekeeper-card {
+	border: 1px solid #DDDDDD;
+	border-bottom: 2px solid #000;
+}
+
+.housekeeper-head {
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.housekeeper-head img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.housekeeper-name {
+	text-align: center;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #DDDDDD;
+	padding-bottom: 10px;
+	padding-left: 40%;
+	padding-right: 40%;
+}
+
+.housekeeper-info {
+	padding: 20px 0;
+}
